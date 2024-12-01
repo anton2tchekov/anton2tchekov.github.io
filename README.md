@@ -1,2 +1,2 @@
 # anton2tchekov.github.io
-personal page
+Personal page to centralize links concerning CV, code projects etc.
