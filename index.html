@@ -1,39 +1,85 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>CV and GitLab</title>
-        <style>
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                height: 100vh;
-                margin: 0;
-                font-family: Arial, sans-serif;
-                background-color: #f0f0f0;
-            }
-            .button {
-                text-decoration: none;
-                display: inline-block;
-                padding: 15px 30px;
-                font-size: 16px;
-                color: white;
-                background-color: #007bff;
-                border: none;
-                border-radius: 5px;
-                transition: background-color 0.3s ease;
-                text-align: center;
-                margin: 10px;
-            }
-            .button:hover {
-                background-color: #0056b3;
-            }
-        </style>
-    </head>
-    <body>
-        <a class="button" href="/assets/files/Montiel_Antoine_CV_pub.pdf" target="_blank">Antoine Montiel CV</a>
-        <a class="button" href="https://gitlab.com/portfolio6971143" target="_blank">Gitlab projects</a>
-        <a class="button" href="https://github.com/anton2tchekov" target="_blank">Github page</a>
-    </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>CV and GitLab</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130693761-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-130693761-1');
+    </script>
+
+    <!-- Icons -->
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/230/seedling_1f331.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" 
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" 
+          crossorigin="anonymous">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .button {
+            text-decoration: none;
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+        }
+        .footer-icon {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+        .footer-icon:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Buttons Container -->
+    <div>
+        <a class="button" href="/assets/files/Montiel_Antoine_CV_pub.pdf" target="_blank">Access My CV</a>
+        <a class="button" href="https://gitlab.com/portfolio6971143" target="_blank">Visit My GitLab</a>
+        <a class="button" href="https://github.com/anton2tchekov" target="_blank">Github Page</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <a href="/" class="footer-icon"><i class="fas fa-home"></i></a>
+        <a href="https://www.linkedin.com/in/antoine-montiel-ph-d-33a634a7" target="_blank" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
+    </footer>
+</body>
+
 </html>
